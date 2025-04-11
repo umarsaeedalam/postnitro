@@ -1,16 +1,23 @@
-'use client'
-
 import Image from "next/image";
 import Link from "next/link";
 import logo from '../../../public/logo-full.svg'
-import { Sparkle } from "phosphor-react";
+import { Sparkles } from "lucide-react";
 import { Badge } from "../shadcn/badge";
 import NavMenu from "../pieces/nav-menu";
-import { useTranslations } from 'next-intl';
-import SelectLanguage from "../bits/select-language";
+import SelectLanguage from "@/components/bits/select-language";
+import { getLocale,  getTranslations } from "next-intl/server";
 
-function Header() {
-    const t = useTranslations('Header');
+export const dynamic = 'force-dynamic';
+
+async function Header() {
+    const locale = await getLocale();
+
+    console.log(`Header: ${locale}`)
+
+    const t = await getTranslations({
+        locale: locale,
+        namespace: 'Header'
+    });
 
     return (
         <header className="flex justify-center w-full">
@@ -20,47 +27,16 @@ function Header() {
                         <Image src={logo} alt="PostNitro Logo" width={135} />
                     </Link>
 
-                    {/* <ul>
-                        <li>
-                            <button type="button" aria-expanded="false" aria-controls="dropdown-products">
-                                <span>Getting Started</span>
-                                <CaretDown size={20} />
-                            </button>
-                        </li>
-
-                        <li>
-                            <button type="button" aria-expanded="false" aria-controls="dropdown-solutions">
-                                <span>Products</span>
-                                <CaretDown size={20} />
-                            </button>
-                        </li>
-
-                        <li>
-                            <button type="button" aria-expanded="false" aria-controls="dropdown-resources">
-                                <span>Free Tools</span>
-                                <CaretDown size={20} />
-                            </button>
-                        </li>
-
-                        <li>
-                            <button type="button" aria-expanded="false" aria-controls="dropdown-pricing">
-                                <span>Plans</span>
-                                <CaretDown size={20} />
-                            </button>
-                        </li>
-                    </ul> */}
-
                     <NavMenu />
                 </div>
                 
                 <div className="flex items-center gap-4">
-                    {/* <button type="button">L</button> */}
                     <SelectLanguage />
 
                     <button type="button" className="px-2.5 py-1.5 pr-5 border border-jade-500 rounded-md hover:bg-jade-500/5 hover:cursor-pointer transition-all duration-150 transform active:translate-y-0.5 focus-visible:outline-jade-600">
                         <Link href='https://postnitro.ai/app/carousel-maker'>
                             <div className="flex items-center gap-3 text-jade-500">
-                                <Sparkle size={18} className="font-bold" />
+                                <Sparkles size={18} />
 
                                 <span className="text-sm font-semibold">{t('buttons.createImagePost')}</span>
 
@@ -72,7 +48,7 @@ function Header() {
                     <button type="button" className="px-2.5 py-1.5 pr-5 border border-jade-500 bg-jade-500 rounded-md hover:bg-jade-600 hover:cursor-pointer transition-all duration-150 transform active:translate-y-0.5 focus-visible:outline-jade-600">
                         <Link href='https://postnitro.ai/app/carousel-maker'>
                             <div className="flex items-center gap-3 text-white">
-                                <Sparkle size={18} className="font-bold" />
+                                <Sparkles size={18} />
 
                                 <span className="text-sm font-semibold">{t('buttons.createCarousel')}</span>
                             </div>

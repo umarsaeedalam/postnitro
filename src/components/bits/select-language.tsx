@@ -1,3 +1,5 @@
+'use client'
+
 import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/shadcn/select";
@@ -7,8 +9,6 @@ function SelectLanguage() {
     const router = useRouter();
     const pathname = usePathname();
     const locale = useLocale();
-
-    console.log(locale)
     
     // Function to handle language change
     const handleLanguageChange = (value: string) => {

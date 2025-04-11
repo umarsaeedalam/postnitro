@@ -31,7 +31,7 @@ async function Home({ params }: { params: Promise<{ locale: string }>;}) {
         <main className="min-h-screen-minus-header flex items-center justify-center overflow-clip relative">
             <Image src={backgroundPicture} fill alt="Background" className="-z-50" />
 
-            <section className="flex flex-col justify-center items-center max-w-5xl -translate-y-7">
+            <section className="flex flex-col justify-center items-center max-w-5xl w-full -translate-y-7">
                 <div className="flex items-center rounded-md border border-slate-200 w-fit pr-3 mb-7">
                     <DotIcon size={50} className="text-jade-500 -m-2.5" />
 
