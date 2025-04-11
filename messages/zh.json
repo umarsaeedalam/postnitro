@@ -1,0 +1,50 @@
+{
+    "Layout": {
+      "description": "用于Instagram、LinkedIn等的AI驱动的轮播图生成器"
+    },
+    "Header": {
+      "navigation": {
+        "gettingStarted": "开始使用",
+        "products": "产品",
+        "freeTools": "免费工具",
+        "plans": "套餐"
+      },
+      "dropdowns": {
+        "gettingStarted": {
+          "docs": "文档",
+          "blog": "博客",
+          "affiliates": "联盟计划"
+        },
+        "products": {
+          "linkedinCarousel": "LinkedIn轮播图",
+          "instagramCarousel": "Instagram轮播图",
+          "tiktokCarousel": "TikTok轮播图",
+          "twitterCarousel": "Twitter轮播图",
+          "embed": "嵌入",
+          "extension": "扩展"
+        },
+        "freeTools": {
+          "twitterBannerMaker": "Twitter横幅制作器",
+          "linkedinBannerMaker": "LinkedIn横幅制作器",
+          "instagramGridMaker": "Instagram网格制作器",
+          "linkedinTextFormatter": "LinkedIn文本格式化工具",
+          "linkedinPostGenerator": "LinkedIn帖子生成器"
+        }
+      },
+      "languageSwitcher": {
+        "english": "英语",
+        "chinese": "中文",
+        "spanish": "西班牙语",
+        "french": "法语"
+      },
+      "buttons": {
+        "createImagePost": "创建图片帖子",
+        "createCarousel": "创建轮播图",
+        "beta": "测试版"
+      }
+    },
+    "HomePage": {
+      "title": "你好，世界！",
+      "about": "前往关于页面"
+    }
+}

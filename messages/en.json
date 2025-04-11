@@ -1,6 +1,43 @@
 {
+    "Layout": {
+      "description": "AI-Powered Carousel Generator for Instagram, LinkedIn & More"
+    },
+    "Header": {
+      "navigation": {
+        "gettingStarted": "Getting Started",
+        "products": "Products",
+        "freeTools": "Free Tools",
+        "plans": "Plans"
+      },
+      "dropdowns": {
+        "gettingStarted": {
+          "docs": "Docs",
+          "blog": "Blog",
+          "affiliates": "Affiliates"
+        },
+        "products": {
+          "linkedinCarousel": "LinkedIn Carousel",
+          "instagramCarousel": "Instagram Carousel",
+          "tiktokCarousel": "TikTok Carousel",
+          "twitterCarousel": "Twitter Carousel",
+          "embed": "Embed",
+          "extension": "Extension"
+        },
+        "freeTools": {
+          "twitterBannerMaker": "Twitter Banner Maker",
+          "linkedinBannerMaker": "LinkedIn Banner Maker",
+          "instagramGridMaker": "Instagram Grid Maker",
+          "linkedinTextFormatter": "LinkedIn Text Formatter",
+          "linkedinPostGenerator": "LinkedIn Post Generator"
+        }
+      },
+      "buttons": {
+        "createImagePost": "Create Image Post",
+        "createCarousel": "Create Carousel"
+      }
+    },
     "HomePage": {
       "title": "Hello world!",
       "about": "Go to the about page"
     }
-  }
+}

@@ -1,0 +1,50 @@
+{
+    "Layout": {
+      "description": "Générateur de Carrousels Propulsé par l'IA pour Instagram, LinkedIn et Plus"
+    },
+    "Header": {
+      "navigation": {
+        "gettingStarted": "Commencer",
+        "products": "Produits",
+        "freeTools": "Outils Gratuits",
+        "plans": "Forfaits"
+      },
+      "dropdowns": {
+        "gettingStarted": {
+          "docs": "Documentation",
+          "blog": "Blog",
+          "affiliates": "Affiliés"
+        },
+        "products": {
+          "linkedinCarousel": "Carrousel LinkedIn",
+          "instagramCarousel": "Carrousel Instagram",
+          "tiktokCarousel": "Carrousel TikTok",
+          "twitterCarousel": "Carrousel Twitter",
+          "embed": "Intégration",
+          "extension": "Extension"
+        },
+        "freeTools": {
+          "twitterBannerMaker": "Créateur de Bannière Twitter",
+          "linkedinBannerMaker": "Créateur de Bannière LinkedIn",
+          "instagramGridMaker": "Créateur de Grille Instagram",
+          "linkedinTextFormatter": "Formateur de Texte LinkedIn",
+          "linkedinPostGenerator": "Générateur de Publications LinkedIn"
+        }
+      },
+      "languageSwitcher": {
+        "english": "Anglais",
+        "chinese": "Chinois",
+        "spanish": "Espagnol",
+        "french": "Français"
+      },
+      "buttons": {
+        "createImagePost": "Créer un Post Image",
+        "createCarousel": "Créer un Carrousel",
+        "beta": "BÊTA"
+      }
+    },
+    "HomePage": {
+      "title": "Bonjour le monde !",
+      "about": "Aller à la page à propos"
+    }
+}

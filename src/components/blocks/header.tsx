@@ -6,8 +6,11 @@ import logo from '../../../public/logo-full.svg'
 import { Sparkle } from "phosphor-react";
 import { Badge } from "../shadcn/badge";
 import NavMenu from "../pieces/nav-menu";
+import { useTranslations } from 'next-intl';
 
-function NavBar() {
+function Header() {
+    const t = useTranslations('Header');
+
     return (
         <header className="flex justify-center w-full">
             <nav className="flex justify-between max-w-11/12 w-full py-2.5">
@@ -57,7 +60,7 @@ function NavBar() {
                             <div className="flex items-center gap-3 text-jade-500">
                                 <Sparkle size={18} className="font-bold" />
 
-                                <span className="text-sm font-semibold">Create Image Post</span>
+                                <span className="text-sm font-semibold">{t('buttons.createImagePost')}</span>
 
                                 <Badge className="text-[9px] font-semibold tracking-wide px-2.5 bg-gradient-to-r from-mintlime-100 to-mintlime-900 rounded-full">BETA</Badge>
                             </div>
@@ -69,7 +72,7 @@ function NavBar() {
                             <div className="flex items-center gap-3 text-white">
                                 <Sparkle size={18} className="font-bold" />
 
-                                <span className="text-sm font-semibold">Create Carousel</span>
+                                <span className="text-sm font-semibold">{t('buttons.createCarousel')}</span>
                             </div>
                         </Link>
                     </button>
@@ -79,4 +82,4 @@ function NavBar() {
     )
 }
 
-export default NavBar;
+export default Header;
