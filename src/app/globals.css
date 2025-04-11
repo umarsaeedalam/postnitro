@@ -27,6 +27,10 @@
     --color-jade-950: #043931;
   }
 
+  @theme {
+    --height-screen-minus-header: calc(100vh - 56px);
+  }
+
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);

@@ -44,7 +44,23 @@
       }
     },
     "HomePage": {
-      "title": "Bonjour le monde !",
-      "about": "Aller à la page à propos"
+      "metadata": {
+        "title": "Générateur Gratuit de Carrousels par IA"
+      },
+      "tagline": "Générateur de Carrousels Propulsé par l'IA pour du Contenu Viral",
+      "headline": "Générateur de Carrousels Propulsé par l'IA pour Instagram, LinkedIn et Plus",
+      "description": "La plateforme de PostNitro propulsée par l'IA crée de superbes carrousels pour Instagram, LinkedIn, TikTok et plus encore. Boostez votre engagement sur les réseaux sociaux avec un contenu personnalisable et aligné sur votre marque, généré en quelques minutes.",
+      "stats": {
+        "rating": "5.0",
+        "users": "Rejoignez plus de 32 000 créateurs",
+        "platforms": {
+          "title": "Intégré dans",
+          "count": "Plus de 40 plateformes SMM"
+        }
+      },
+      "cta": {
+        "button": "Commencez à Créer des Carrousels Gratuitement",
+        "noCreditCard": "Pas de carte de crédit requise | Téléchargements gratuits chaque mois"
+      }
     }
 }

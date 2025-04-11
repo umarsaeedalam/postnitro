@@ -44,7 +44,23 @@
       }
     },
     "HomePage": {
-      "title": "¡Hola mundo!",
-      "about": "Ir a la página de información"
+      "metadata": {
+        "title": "Generador Gratuito de Carruseles con IA"
+      },
+      "tagline": "Generador de Carruseles con IA para Contenido Viral",
+      "headline": "Generador de Carruseles con IA para Instagram, LinkedIn y Más",
+      "description": "La plataforma de PostNitro impulsada por IA crea impresionantes carruseles para Instagram, LinkedIn, TikTok y más. Aumenta tu engagement en redes sociales con contenido personalizable y alineado con tu marca, generado en minutos.",
+      "stats": {
+        "rating": "5.0",
+        "users": "Únete a más de 32,000 creadores",
+        "platforms": {
+          "title": "Integrado en",
+          "count": "Más de 40 plataformas SMM"
+        }
+      },
+      "cta": {
+        "button": "Comienza a Crear Carruseles Gratis",
+        "noCreditCard": "No se requiere tarjeta de crédito | Descargas gratuitas cada mes"
+      }
     }
 }

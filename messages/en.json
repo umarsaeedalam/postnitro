@@ -31,13 +31,36 @@
           "linkedinPostGenerator": "LinkedIn Post Generator"
         }
       },
+      "languageSwitcher": {
+        "english": "English",
+        "chinese": "Chinese",
+        "spanish": "Spanish",
+        "french": "French"
+      },
       "buttons": {
         "createImagePost": "Create Image Post",
-        "createCarousel": "Create Carousel"
+        "createCarousel": "Create Carousel",
+        "beta": "BETA"
       }
     },
     "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+      "metadata": {
+        "title": "Free AI Carousel Generator"
+      },
+      "tagline": "AI-Powered Carousel Generator for Viral Content",
+      "headline": "AI-Powered Carousel Generator for Instagram, LinkedIn & More",
+      "description": "PostNitro's AI-powered platform creates stunning carousels for Instagram, LinkedIn, TikTok, and more. Boost your social media engagement with customizable, brand-aligned content generated in minutes.",
+      "stats": {
+        "rating": "5.0",
+        "users": "Join 32,000+ Creators",
+        "platforms": {
+          "title": "Embedded Into",
+          "count": "40+ SMM Platforms"
+        }
+      },
+      "cta": {
+        "button": "Start Creating Free Carousels",
+        "noCreditCard": "No Credit Card Required | Free Downloads Every Month"
+      }
     }
 }

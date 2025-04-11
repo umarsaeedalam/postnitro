@@ -44,7 +44,23 @@
       }
     },
     "HomePage": {
-      "title": "你好，世界！",
-      "about": "前往关于页面"
+      "metadata": {
+        "title": "免费AI轮播图生成器"
+      },
+      "tagline": "用于病毒式内容的AI驱动轮播图生成器",
+      "headline": "用于Instagram、LinkedIn等的AI驱动的轮播图生成器",
+      "description": "PostNitro的AI驱动平台为Instagram、LinkedIn、TikTok等创建令人惊叹的轮播图。通过可自定义、品牌一致的内容提升您的社交媒体参与度，几分钟内即可生成。",
+      "stats": {
+        "rating": "5.0",
+        "users": "加入32,000+创作者",
+        "platforms": {
+          "title": "已嵌入到",
+          "count": "40+社交媒体营销平台"
+        }
+      },
+      "cta": {
+        "button": "开始免费创建轮播图",
+        "noCreditCard": "无需信用卡 | 每月免费下载"
+      }
     }
 }
