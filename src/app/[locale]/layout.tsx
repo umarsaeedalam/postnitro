@@ -41,7 +41,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     return (
         <html lang={locale}>
             <body className={`${inter.className} antialiased`}>
-                <NextIntlClientProvider messages={messages}>
+                <NextIntlClientProvider messages={messages} locale={locale}>
                     <Header />
                     {children}
                 </NextIntlClientProvider>

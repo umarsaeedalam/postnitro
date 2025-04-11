@@ -7,6 +7,7 @@ import { Sparkle } from "phosphor-react";
 import { Badge } from "../shadcn/badge";
 import NavMenu from "../pieces/nav-menu";
 import { useTranslations } from 'next-intl';
+import SelectLanguage from "../bits/select-language";
 
 function Header() {
     const t = useTranslations('Header');
@@ -53,7 +54,8 @@ function Header() {
                 </div>
                 
                 <div className="flex items-center gap-4">
-                    <button type="button">L</button>
+                    {/* <button type="button">L</button> */}
+                    <SelectLanguage />
 
                     <button type="button" className="px-2.5 py-1.5 pr-5 border border-jade-500 rounded-md hover:bg-jade-500/5 hover:cursor-pointer transition-all duration-150 transform active:translate-y-0.5 focus-visible:outline-jade-600">
                         <Link href='https://postnitro.ai/app/carousel-maker'>
