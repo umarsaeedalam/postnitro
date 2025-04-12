@@ -43,7 +43,7 @@ async function Home({ params }: { params: Promise<{ locale: string }>;}) {
                     <p className="font-semibold text-sm max-[1290px]:text-[13px] max-[790px]:text-xs">{t('tagline')}</p>
                 </div>
 
-                {/* Main headline - responsive text sizing */}
+                {/* Main headline */}
                 <h1 className="text-5xl max-[1290px]:text-[46px] max-[790px]:text-4xl max-[500px]:text-2xl font-semibold text-center leading-14 max-[790px]:leading-11 max-[500px]:leading-9 mb-4">{t('headline')}</h1>
                 
                 {/* Subheading description */}
