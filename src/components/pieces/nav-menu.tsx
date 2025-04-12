@@ -12,25 +12,25 @@ function NavMenu() {
             <NavigationMenuList>
                 {/* Item 1 */}
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="font-semibold text-md hover:cursor-pointer transition-all duration-150 transform active:translate-y-0.5">{t('navigation.gettingStarted')}</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="font-semibold text-base max-[1290px]:text-[15px] hover:cursor-pointer transition-all duration-150 transform active:translate-y-0.5">{t('navigation.gettingStarted')}</NavigationMenuTrigger>
                     
-                    <NavigationMenuContent className="font-semibold">
+                    <NavigationMenuContent className="font-semibold z-50 bg-white">
                         <ul>
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/docs">{t('dropdowns.gettingStarted.docs')}</Link>
+                                    <Link href="https://postnitro.ai/docs" className="max-[1290px]:text-[13px]">{t('dropdowns.gettingStarted.docs')}</Link>
                                 </NavigationMenuLink>
                             </li>
                             
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/blog">{t('dropdowns.gettingStarted.blog')}</Link>
+                                    <Link href="https://postnitro.ai/blog" className="max-[1290px]:text-[13px]">{t('dropdowns.gettingStarted.blog')}</Link>
                                 </NavigationMenuLink>
                             </li>
 
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://ls.postnitro.ai/affiliates">{t('dropdowns.gettingStarted.affiliates')}</Link>
+                                    <Link href="https://ls.postnitro.ai/affiliates" className="max-[1290px]:text-[13px]">{t('dropdowns.gettingStarted.affiliates')}</Link>
                                 </NavigationMenuLink>
                             </li>
                         </ul>
@@ -39,33 +39,33 @@ function NavMenu() {
 
                 {/* Item 2 */}
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="font-semibold hover:cursor-pointer  tracking-tight text-md transition-all duration-150 transform active:translate-y-0.5">{t('navigation.products')}</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className="font-semibold hover:cursor-pointer tracking-tight text-base max-[1290px]:text-[15px] transition-all duration-150 transform active:translate-y-0.5">{t('navigation.products')}</NavigationMenuTrigger>
                     
-                    <NavigationMenuContent className="font-semibold">
+                    <NavigationMenuContent className="font-semibold z-50 bg-white">
                         <ul>
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/carousels/linkedin" className="pr-10 whitespace-nowrap">{t('dropdowns.products.linkedinCarousel')}</Link>
+                                    <Link href="https://postnitro.ai/carousels/linkedin" className="pr-10 whitespace-nowrap max-[1290px]:text-[13px]">{t('dropdowns.products.linkedinCarousel')}</Link>
                                 </NavigationMenuLink>
 
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/carousels/instagram" className="whitespace-nowrap">{t('dropdowns.products.instagramCarousel')}</Link>
+                                    <Link href="https://postnitro.ai/carousels/instagram" className="whitespace-nowrap max-[1290px]:text-[13px]">{t('dropdowns.products.instagramCarousel')}</Link>
                                 </NavigationMenuLink>
 
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/carousels/tiktok">{t('dropdowns.products.tiktokCarousel')}</Link>
+                                    <Link href="https://postnitro.ai/carousels/tiktok" className="max-[1290px]:text-[13px]">{t('dropdowns.products.tiktokCarousel')}</Link>
                                 </NavigationMenuLink>
 
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/carousels/x-twitter">{t('dropdowns.products.twitterCarousel')}</Link>
+                                    <Link href="https://postnitro.ai/carousels/x-twitter" className="max-[1290px]:text-[13px]">{t('dropdowns.products.twitterCarousel')}</Link>
                                 </NavigationMenuLink>
 
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/products/embed">{t('dropdowns.products.embed')}</Link>
+                                    <Link href="https://postnitro.ai/products/embed" className="max-[1290px]:text-[13px]">{t('dropdowns.products.embed')}</Link>
                                 </NavigationMenuLink>
 
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/products/extension">{t('dropdowns.products.extension')}</Link>
+                                    <Link href="https://postnitro.ai/products/extension" className="max-[1290px]:text-[13px]">{t('dropdowns.products.extension')}</Link>
                                 </NavigationMenuLink>
                             </li>
                         </ul>
@@ -73,38 +73,38 @@ function NavMenu() {
                 </NavigationMenuItem>
 
                 {/* Item 3 */}
-                <NavigationMenuItem>
-                    <NavigationMenuTrigger className="font-semibold hover:cursor-pointer tracking-tight text-md transition-all duration-150 transform active:translate-y-0.5">{t('navigation.freeTools')}</NavigationMenuTrigger>
+                <NavigationMenuItem className="z-50 bg-white">
+                    <NavigationMenuTrigger className="font-semibold hover:cursor-pointer tracking-tight text-base max-[1290px]:text-[15px] transition-all duration-150 transform active:translate-y-0.5">{t('navigation.freeTools')}</NavigationMenuTrigger>
                     
                     <NavigationMenuContent>
                         <ul className="font-semibold">
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker" className="whitespace-nowrap !pr-10">{t('dropdowns.freeTools.twitterBannerMaker')}</Link>
+                                    <Link href="https://postnitro.ai/free-ai-tools/twitter-free-banner-header-image-maker" className="whitespace-nowrap !pr-10 max-[1290px]:text-[13px]">{t('dropdowns.freeTools.twitterBannerMaker')}</Link>
                                 </NavigationMenuLink>
                             </li>
 
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker" className="">{t('dropdowns.freeTools.linkedinBannerMaker')}</Link>
+                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-banner-header-image-maker" className="max-[1290px]:text-[13px]">{t('dropdowns.freeTools.linkedinBannerMaker')}</Link>
                                 </NavigationMenuLink>
                             </li>
 
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker">{t('dropdowns.freeTools.instagramGridMaker')}</Link>
+                                    <Link href="https://postnitro.ai/free-ai-tools/instagram-free-image-splitter-grid-maker" className="max-[1290px]:text-[13px]">{t('dropdowns.freeTools.instagramGridMaker')}</Link>
                                 </NavigationMenuLink>
                             </li>
 
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter">{t('dropdowns.freeTools.linkedinTextFormatter')}</Link>
+                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-text-formatter" className="max-[1290px]:text-[13px]">{t('dropdowns.freeTools.linkedinTextFormatter')}</Link>
                                 </NavigationMenuLink>
                             </li>
 
                             <li>
                                 <NavigationMenuLink asChild>
-                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-post-generator">{t('dropdowns.freeTools.linkedinPostGenerator')}</Link>
+                                    <Link href="https://postnitro.ai/free-ai-tools/linkedin-free-post-generator" className="max-[1290px]:text-[13px]">{t('dropdowns.freeTools.linkedinPostGenerator')}</Link>
                                 </NavigationMenuLink>
                             </li>
                         </ul>
@@ -113,7 +113,7 @@ function NavMenu() {
 
                 {/* Item 4 */}
                 <NavigationMenuItem>
-                        <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} hover:cursor-pointer font-semibold text-md tracking-tight transition-all duration-150 transform active:translate-y-0.5`}>
+                        <NavigationMenuLink asChild className={`${navigationMenuTriggerStyle()} hover:cursor-pointer font-semibold text-base max-[1290px]:text-[15px] tracking-tight transition-all duration-150 transform active:translate-y-0.5`}>
                             <Link href="/plans" passHref>
                                 {t('navigation.plans')}
                             </Link>

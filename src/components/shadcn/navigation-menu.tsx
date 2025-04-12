@@ -76,7 +76,7 @@ function NavigationMenuTrigger({
     >
       {children}{" "}
       <CaretDown
-        className="relative top-[1px] ml-2.5 size-4 text-black font-bold transition duration-300 group-data-[state=open]:rotate-180"
+        className="relative top-[1px] ml-2.5 max-[1290px]:ml-2 size-4 max-[1290px]:size-3 text-black font-bold transition duration-300 group-data-[state=open]:rotate-180"
         aria-hidden="true"
       />
     </NavigationMenuPrimitive.Trigger>

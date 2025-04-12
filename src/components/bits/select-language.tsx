@@ -31,6 +31,14 @@ function SelectLanguage() {
                             alt="English Flag" 
                             width={30} 
                             height={10} 
+                            className="max-[1145px]:hidden"
+                        />
+                        <Image 
+                            src='/flags/GB-UKM - United Kingdom.svg' 
+                            alt="English Flag" 
+                            width={25} 
+                            height={10}
+                            className="min-[1145px]:hidden" 
                         />
                     </SelectItem>
 
@@ -39,7 +47,15 @@ function SelectLanguage() {
                             src='/flags/ES - Spain.svg' 
                             alt="Spanish Flag" 
                             width={30} 
-                            height={10} 
+                            height={10}
+                            className="max-[1145px]:hidden" 
+                        />
+                        <Image 
+                            src='/flags/ES - Spain.svg' 
+                            alt="Spanish Flag" 
+                            width={25} 
+                            height={10}
+                            className="min-[1145px]:hidden"  
                         />
                     </SelectItem>
 
@@ -48,7 +64,15 @@ function SelectLanguage() {
                             src='/flags/FR - France.svg' 
                             alt="French Flag" 
                             width={30} 
-                            height={10} 
+                            height={10}
+                            className="max-[1145px]:hidden" 
+                        />
+                        <Image 
+                            src='/flags/FR - France.svg' 
+                            alt="French Flag" 
+                            width={25} 
+                            height={10}
+                            className="min-[1145px]:hidden" 
                         />
                     </SelectItem>
 
@@ -57,7 +81,15 @@ function SelectLanguage() {
                             src='/flags/CN - China.svg' 
                             alt="Chineese Flag" 
                             width={30} 
-                            height={10} 
+                            height={10}
+                            className="max-[1145px]:hidden" 
+                        />
+                        <Image 
+                            src='/flags/CN - China.svg' 
+                            alt="Chineese Flag" 
+                            width={25} 
+                            height={10}
+                            className="min-[1145px]:hidden" 
                         />
                     </SelectItem>
                 </SelectGroup>
