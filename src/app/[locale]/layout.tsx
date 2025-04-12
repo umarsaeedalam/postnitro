@@ -1,12 +1,18 @@
+// External libraries
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import { Inter } from "next/font/google";
-import Header from '@/components/blocks/header';
-import '@/app/globals.css'
 import { getTranslations, getMessages } from 'next-intl/server';
+import { Inter } from "next/font/google";
+import { notFound } from 'next/navigation';
+
+// Local imports
+import { routing } from '@/i18n/routing';
+import Header from '@/components/blocks/header';
+
+// Styles
+import '@/app/globals.css'
 
 
+// Generate metadata for SEO with localized description
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }>;}) {
     const { locale } = await params;
 
@@ -24,6 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
+// Configure font for the application
 const inter = Inter({
     subsets: ["latin"]
 })
@@ -32,6 +39,7 @@ const inter = Inter({
 export default async function LocaleLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }>;}) {
     const { locale } = await params;
 
+    // Redirect to 404 if locale isn't supported
     if (!hasLocale(routing.locales, locale)) {
         notFound();
     }

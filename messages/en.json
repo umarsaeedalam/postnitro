@@ -3,6 +3,7 @@
       "description": "AI-Powered Carousel Generator for Instagram, LinkedIn & More"
     },
     "Header": {
+        "home": "Home", 
       "navigation": {
         "gettingStarted": "Getting Started",
         "products": "Products",
